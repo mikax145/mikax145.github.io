@@ -1,0 +1,248 @@
+body {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: 0;
+    background-color: bisque;
+}
+
+#teddy {
+    float: left;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+nav h1{
+    background: linear-gradient(to right, coral, #ffc787);
+    color: white;
+    text-align: center;
+    font-family: Optima, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    margin-top: 0;
+}
+
+.btn-add, .btn-add:hover, .btn-add:focus {
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    padding: 0; 
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: -12px;
+}
+
+.btn-group {
+    float: right;
+}
+
+.dropdown-menu {
+    background-color: lightsalmon;
+    border-radius: 7px;
+}
+
+.btn.btn-primary.btn-lg {
+    background-color: lightsalmon;
+    padding: 0;
+    margin-left: 40px;
+    font-size: 14px;
+    border: none;
+}
+
+.modal-content {
+    background-color: bisque;
+}
+
+.modal-header {
+    color: coral;
+    text-align: center;
+    border: none;
+}
+
+h4 {
+    font-family: Optima, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: coral;
+}
+
+label {
+    font-family: Optima, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px; 
+    font-weight: 300;
+    font-size: 13.5px;
+}
+
+#list, #dueDate {
+    color: orange;
+    border: none;
+}
+
+.modal-body {
+    color: dimgray;
+    border: none;
+}
+
+.modal-footer {
+    border: none;
+}
+
+#buttonAdd {
+    background-color: coral;
+    color: white;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    border: none;
+}
+
+#due-date {
+    background-color: floralwhite;
+    color: coral;
+    font-family: Optima, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 7px 5% 7px 5%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+#no-date {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: coral;
+    color: white;
+    font-family: Optima, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 7px 5% 7px 5%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.checkboxes {
+    width: 25px;
+}
+
+.deleteButton {
+    background-color: transparent;
+    border: none; 
+    float: right; 
+    margin-right: -30px;
+    margin-top: 3px;
+    background: url(../Images/todobear/trash.png);
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+#tabs {
+    background-color: bisque;
+    margin-top: -10px;
+}
+
+#tasklistBox {
+    background-color: bisque;
+}
+
+#tasklist li {
+    list-style-type: none;
+    color: gray;
+    font-weight: 300;
+    font-size: 13.5px; 
+    margin-left: -40px; 
+    margin-top: 20px;
+    margin-right: 15px; 
+    background-color: floralwhite; 
+    padding: 10px; 
+    border-radius: 25px; 
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, bisque, #ffc787);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: gray;
+    display: block;
+    transition: 0.5s;
+    text-align: left;
+}
+
+.list {
+    font-size: 16px;
+}
+
+#listLinks {
+    margin-top: 20px;
+}
+
+#newList {
+    color: coral;
+    font-size: 16px;
+}
+
+.edit {
+    display: inline-block;
+    float: right;
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: floralwhite;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    font-size: 30px;
+    font-weight: normal;
+    color: ghostwhite;
+}
+
+#sidenavFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#help {
+    float: left;
+    margin-top: 15px;
+    margin-left: -10px;
+}
+
+#logout {
+    float: right;
+    font-size: 14px;
+    color: coral;
+}
