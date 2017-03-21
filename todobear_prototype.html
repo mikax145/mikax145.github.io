@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- insert viewport tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do Bear</title>
+        <!-- link the bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- link my css stylesheet -->
+        <link rel = "stylesheet" href = "CSS/todobear.css">
+
+    </head>
+
+    <body>
+        <nav>
+            <h1>
+               <!-- Side navigation menu -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    
+                    <div id=listLinks>
+                    <a href="#" class="edit">EDIT</a>
+                    <a href="todobear_prototype.html" class="list">My Tasks</a>
+                    <a href="#" class="edit">EDIT</a>
+                    <a href="#" class="list">Family</a>
+                    <a href="#" class="edit">EDIT</a>
+                    <a href="#" class="list">Roomies</a>
+                    <a href="#" id="newList">+ New List</a>
+                    </div>
+                    
+                    <div id=sidenavFooter>
+                    <a href="#"><img src="Images/todobear/helpicon.png" id="help" alt="help" style="width:22px;height:22px;"></a>
+                    <a href="#" id="logout">Logout</a>
+                    </div>
+                </div>
+
+                </div>
+                <span onclick="openNav()"><img src="Images/todobear/teddy.png" id="teddy" alt="profile" style="width:30px;height:30px;"></span>
+
+                My Tasks
+                <div class="btn-group">
+                    <button type="button" class="btn btn-add dropdown-toggle" id="add-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        +
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <!-- Button trigger modal -->
+                        <li><button type="button" class="btn btn-primary btn-lg" id="newTaskBtn" data-toggle="modal" data-target="#myModal">
+                            + New Task
+                            </button></li>
+                        <li role="separator" class="divider"></li>
+                        <li><button type="button" class="btn btn-primary btn-lg">+ New List</button></li>
+                    </ul>
+                </div>
+            </h1>
+        </nav>
+
+        <!-- Modal for adding a new task -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" id="newTaskModal" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">+ NEW TASK +</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group" id=taskForm>
+                                <label for="inputTaskName">Task</label>
+                                <input type="task" class="form-control" id="taskName">
+                                <label for="selectList">List</label>
+                                <select class="form-control" id="list">
+                                    <option>Current</option>
+                                    <option>Family</option>
+                                    <option>Roomies</option>
+                                </select>
+                                <label for="dueDate">Due Date</label>
+                                <select class="form-control" id="dueDate">
+                                    <option>None</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="buttonAdd" class="buttonBig" id="buttonAdd" data-dismiss="modal">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- insert bootstrap grid for mobile & desktop -->
+        <div class="container-fluid">
+            <div class="row">
+                <div id="tabs" class="col-xs-12">
+                    <div class="col-xs-6 col-md-3 col-md-offset-3" id="due-date">With Due Date</div>
+                    <div class="col-xs-6 col-md-3 col-md-offset-6" id="no-date">No Due Date</div>
+                </div>
+                <div id="tasklistBox" class="col-xs-12">
+                    <ul id="tasklist"></ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <!-- load the JQuery library -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- link my js file -->
+    <script src = "JS/todobear.js"></script>
+    </body>
+
+</html>
