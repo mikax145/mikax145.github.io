@@ -9,29 +9,36 @@
         <meta name="description" content="">
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <link rel="stylesheet" type="text/css" media="screen" href="CSS/jquery-sakura.css">
+
+
+        <style>
+            .parallax {
+                /* The image used */
+                background-image: url("Images/home_page3.png");
+
+                /* Set a specific height */
+                min-height: 330px; 
+
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+
+
     </head>
     <body>
 
-        <header id="home">
+        <div class="parallax"></div>
+        <header>
 
-            <h1><a href="index.html">M I K A &nbsp;&nbsp;&nbsp;N O M U R A</a></h1>
-            <h2>U X &nbsp;&nbsp;&nbsp;& &nbsp;&nbsp;&nbsp;I n t e r a c t i o n &nbsp;&nbsp;&nbsp;D e s i g n e r</h2>
-            <h3>d e s i g n i n g&nbsp;&nbsp;&nbsp; f o r&nbsp;&nbsp;&nbsp; e m o t i o n s</h3>
-
-            <nav id="meta_nav">
-                <ul>
-                    <li><div id="email"><a href="mailto:mikanomura145@gmail.com" target="_blank"><img src="Images/email2.svg"></a></div></li>
-                    <li><div id="linkedin"><a href="https://www.linkedin.com/in/mika-nomura-73ba8b45" target="_blank"><img src="Images/linkedin2.svg"></a></div></li>
-                </ul>
-            </nav>
-
-        </header>
-        <main>
-            <nav id="home_nav">
+            <div id="main_nav">
                 <div class="wrapper">
                     <?xml version="1.0" encoding="utf-8"?>
                     <!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                    <svg id="bio" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg id="bio-s" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 226.5 405" style="enable-background:new 0 0 226.5 405;" xml:space="preserve">
                         <style type="text/css">
                             .st0{fill:none; stroke:#FFC9DF; stroke-width:5;}
@@ -41,11 +48,11 @@
                         <path class="st0" d="M114.3,50.6c20.9-14.7,41.9-29.5,62.8-44.2"/>
                         <path class="st0" d="M177.3,3.3c15.2,25.2,50.9,92,45,181.8c-8.2,125.6-91.6,201.4-108.9,216.5"/>
                     </svg>
-                    <a href="bio.html"><img id="biofill" src="Images/bio-petal.png"></a>
+                    <a href="bio.html"><img id="biofill-s" src="Images/bio-petal.png"></a>
                 </div>
 
                 <div class="wrapper">
-                    <svg id="cv" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg id="cv-s" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 403.5 243.5" style="enable-background:new 0 0 403.5 243.5;" xml:space="preserve">
                         <style type="text/css">
                             .st0{fill:none;stroke:#FFC9DF;stroke-width:5;}
@@ -57,11 +64,11 @@
                             <path class="st0" d="M401,131.6c-19.2,22.3-71.7,76.9-159,99.1c-122,31-219.9-24.8-239.6-36.6"/>
                         </g>
                     </svg>
-                    <a href="cv.html" target="_blank"><img id="cvfill" src="Images/cv-petal.png"></a>
+                    <a href="cv.html" target="_blank"><img id="cvfill-s" src="Images/cv-petal.png"></a>
                 </div>
 
                 <div class="wrapper">
-                    <svg id="work" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg id="work-s" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 403.5 243.5" style="enable-background:new 0 0 403.5 243.5;" xml:space="preserve">
                         <style type="text/css">
                             .st0{fill:none;stroke:#FFC9DF;stroke-width:5;}
@@ -73,11 +80,11 @@
                             <path class="st0" d="M2.4,131.6c19.2,22.3,71.7,76.9,159,99.1c122,31,219.9-24.8,239.6-36.6"/>
                         </g>
                     </svg>
-                    <a href="work.html"><img id="workfill" src="Images/work-petal.png"></a>
+                    <a href="index.html"><img id="workfill-s" src="Images/work-petal.png"></a>
                 </div>
 
                 <div class="wrapper">
-                    <svg id="bottomleft" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg id="bottomleft-s" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 298.5 362.8" style="enable-background:new 0 0 298.5 362.8;" xml:space="preserve">
                         <style type="text/css">
                             .st0{fill:none;stroke:#FFC9DF;stroke-width:5;}
@@ -89,11 +96,11 @@
                             <path class="st0" d="M3.3,287.6c2.5-29.3,13-104.3,70.6-173.5c80.6-96.7,192.6-109,215.5-111"/>
                         </g>
                     </svg>
-                    <img id="bottomleftfill" src="Images/petal4.png">
+                    <img id="bottomleftfill-s" src="Images/petal4.png">
                 </div>
 
                 <div class="wrapper">
-                    <svg id="bottomright" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    <svg id="bottomright-s" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 298.5 362.8" style="enable-background:new 0 0 298.5 362.8;" xml:space="preserve">
                         <style type="text/css">
                             .st0{fill:none;stroke:#FFC9DF;stroke-width:5;}
@@ -105,14 +112,53 @@
                             <path class="st0" d="M295.2,287.6c-2.5-29.3-13-104.3-70.6-173.5C144,17.4,32,5.1,9.1,3.1"/>
                         </g>
                     </svg>
-                    <img id="bottomrightfill" src="Images/petal3.png">
+                    <img id="bottomrightfill-s" src="Images/petal3.png">
                 </div>
+            </div>
+
+
+            <nav id="meta_nav">
+                <ul>
+                    <li><div id="email"><a href="mailto:mikanomura145@gmail.com" target="_blank"><img src="Images/email2.svg"></a></div></li>
+                    <li><div id="linkedin"><a href="https://www.linkedin.com/in/mika-nomura-73ba8b45" target="_blank"><img src="Images/linkedin2.svg"></a></div></li>
+                </ul>
             </nav>
+        </header>
+
+        <main>
+            <a href="#"></a>
+            <section>
+
+                <div class="work">
+
+                    <figure class="project">
+                        <p><a href="trustytech.html"><img src="Images/trustytech/cover.png">
+                            <figcaption>TrustyTech<br><p>UX/UI & SERVICE DESIGN</p></figcaption></a>
+                    </figure>
+
+                    <figure class="project">
+                        <p><a href="victoria.html"><img src="Images/victoria/cover.png">
+                            <figcaption>Victoria<br><p>UX/CUI DESIGN</p></figcaption></a>
+                    </figure>
+
+                    <figure class="project">
+                        <p><a href="todobear.html"><img src="Images/todobear/cover.png">
+                            <figcaption>To Do Bear<br><p>FRONT-END DEVELOPMENT</p></figcaption></a>
+                    </figure>
+
+                    <figure class="project">
+                        <p><img src="Images/moretocome.png">
+                    </figure>
+
+                </div>
+
+            </section>
+
         </main>
 
         <footer class="clear">
             <div>
-                <p>© 2016 Mika Nomura. All rights reserved.</p>
+                <p>© 2016 Designed & Coded by Mika Nomura.</p>
             </div>
         </footer>
         <div class="clear"></div>
