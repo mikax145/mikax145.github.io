@@ -621,7 +621,8 @@ section a img:hover {
 /* -------------------- BIO ---------------------- */
 
 #profile {
-    width: 300px;
+    width: 310px;
+    height: 410px;
     display: block;
     margin-left: auto;
     margin-right: auto;
