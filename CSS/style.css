@@ -717,11 +717,16 @@ div.work {
 
 .work figcaption {
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.work figcaption p em {
+    font-size: 15px;
+    color: #edc689;
 }
 
 .work figcaption p {
-    font-size: 13px;
+    font-size: 12px;
     color: darkgray;
 }
 
