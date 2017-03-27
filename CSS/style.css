@@ -621,11 +621,12 @@ section a img:hover {
 /* -------------------- BIO ---------------------- */
 
 #profile {
-    width: 230px;
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    float: right;
 }
 
 article#bio {
@@ -636,22 +637,44 @@ article#bio h1 {
     font-size: 30px;
     margin-bottom: 50px;
     margin-top: -10px;
+    text-align: left;
 }
 
 article#bio p {
-    width: 60%;
-    margin-top: 25px; 
+    width: 55%;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 100;
-    font-family: Optima, Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.5px;
     color: dimgray;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    float: left;
 }
+
+article#seeking p {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: dimgray;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+article#seeking p b {
+    color: #edc689;
+}
+
+
+
+
 
 
 /* -------------------- WORK PAGE ---------------------- */
@@ -778,7 +801,7 @@ u {
 }
 
 strong {
-    font-weight: bold;
+    font-weight: 400;
     color: palevioletred;
 }
 
