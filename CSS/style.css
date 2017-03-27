@@ -545,7 +545,7 @@ section ol li {
 .stats-p {
     width: 60%;
     float: left;
-    margin-bottom: -30px;
+    margin-bottom: 20px;
 }
 
 .stats-p p {
