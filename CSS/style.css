@@ -1,16 +1,14 @@
 @import 'reset.css';
 
 article a {
-    text-decoration: none;
+    color: dimgray;
+    text-decoration: underline;
+    transition: 0.1s linear all;
 }
 
 article a:hover {
-    color: pink; 
-    transition: 0.3s linear all;
-}
-
-article a:active {
-    color: pink;
+    color: palevioletred; 
+    transition: 0.1s linear all;
 }
 
 .clear {
@@ -628,7 +626,7 @@ section a img:hover {
 
 #profile {
     width: 310px;
-    height: 410px;
+    height: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -650,7 +648,7 @@ article#bio h1 {
 article#bio p {
     width: 55%;
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 100;
     line-height: 1.5;
     letter-spacing: 0.5px;
