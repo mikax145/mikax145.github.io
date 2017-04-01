@@ -635,7 +635,7 @@ section a img:hover {
 }
 
 article#bio {
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 article#bio h1 {
@@ -722,7 +722,7 @@ div.work {
 
 .work figcaption {
     margin-top: 15px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .work figcaption p em {
