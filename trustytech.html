@@ -7,8 +7,10 @@
         <meta charset="utf-8">
         <meta name="keywords" content="">
         <meta name="description" content="">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -238,44 +240,46 @@
                     <h5>user scenarios & storyboards</h5>
 
                     <p>
-                        To explore as many wild ideas as possible, we generated a variety of user scenarios that focuses on building the trust between home service providers and customers. We selected a final scenario and created storyboards to show how value is co-created. 
-                        <br><br>
-
-                        <strong>Value for Scott, the Customer</strong><br>
-                        Scott is able to take on an extra substitute job despite the unexpected heater issue. Our solution frees him from the burden of having to wait around at home for a technician, which allows him to keep his schedule open and do the things that he actually wants.
+                        To explore as many wild ideas as possible, we generated a variety of user scenarios that focuses on building the trust between home service providers and customers. We selected a final scenario and created storyboards to show how value is co-created.<br><br>
                     </p>
 
-                    <div class="center-div">
-                        <figure class="center">
-                            <img src="Images/trustytech/storyboard1.png">
-                        </figure>
+
+                    <div class="w3-content w3-display-container">
+                        <img class="mySlides" src="Images/trustytech/storyboard1.png" style="width:100%">
+                        <img class="mySlides" src="Images/trustytech/storyboard2.png" style="width:100%">
+                        <img class="mySlides" src="Images/trustytech/storyboard3.png" style="width:100%">
+
+                        <button class="w3-button w3- w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
                     </div>
 
-                    <p>
-                        <strong>Value for Alyssa, the Home Service Provider/Technician</strong><br>
-                        Our application makes the employees’ jobs significantly more efficient because they no longer need to deal with customers rescheduling or cancelling appointments, or not being home at the scheduled time. They also no longer have to worry about running late to appointments.
-                    </p>
 
-                    <div class="center-div">
-                        <figure class="center">
-                            <img src="Images/trustytech/storyboard2.png">
-                        </figure>
-                    </div>
+                    <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
 
-                    <p>
-                        <strong>Added Value for Alyssa, the Home Service Provider</strong><br>
-                        The recorded videos may be used to train multiple new employees at once instead of having ridealongs which cost more time and money.
-                    </p>
+                        function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                        }
 
-                    <div class="center-div">
-                        <figure class="center">
-                            <img src="Images/trustytech/storyboard3.png">
-                        </figure>
-                    </div>
+                        function showDivs(n) {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) {slideIndex = 1}    
+                            if (n < 1) {slideIndex = x.length}
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                            }
+                            x[slideIndex-1].style.display = "block";  
+                        }
+                    </script>
 
                 </section>
 
 
+               
+               
+               
                 <section>
                     <h3>t h e &nbsp;&nbsp;&nbsp;s o l u t i o n</h3>
 
