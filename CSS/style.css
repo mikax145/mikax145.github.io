@@ -28,12 +28,12 @@ img {
 
 body {
     background: url(../Images/lacebg.png) no-repeat bottom left;
-    font-family: Gill Sans, Helvetica, Arial, sans-serif;
-    font-weight: 100;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
 }
 
 main {
-    width: 96%;
+    width: 50%;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -406,7 +406,6 @@ img#bottomrightfill-s {
 
 article {
     margin-top: 100px;
-    width: 60%;
     margin: auto;
 }
 
@@ -416,10 +415,10 @@ article h1 {
     margin-bottom: 15px;
     margin-top: -10px;
     color: black;
+    font-weight: 300;
 }
 
 article h2 {
-    font-family: Optima, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: darkgray;
     margin-bottom: 5px;
@@ -428,42 +427,45 @@ article h2 {
 
 article h3 {
     font-size: 37px;
-    color: #edc689;
+    color: #F0AD4E;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 120px;
     margin-bottom: 25px;
+    font-weight: 100;
 }
 
+
 article h4 {
-    font-family: Optima, Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    color: palevioletred;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    /*    margin-right: 15px;*/
+    letter-spacing: 1px;
+    color: #3f3f3f;
+    margin-top: 80px;
+    margin-bottom: 60px;
+/*    margin-right: 15px;*/
     margin-right: -100px;
     margin-left: -100px;
     text-align: left;
-
     border-bottom: dashed;
     border-bottom-width: 1px;
+    border-bottom-color: #9f9f9f;
 }
 
+
 section h5 {
-    font-family: Optima, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-style: italic;
-    color: lightslategray;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #F0AD4E;
     text-align: left;
-    margin-top: -25px;
-    margin-bottom: 30px;
-    margin-left: -100px;
+    margin-top: 55px;
+    margin-bottom: 50px;
 }
 
 div.stats h5 {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 700;
     color: #4d4d4d;
     margin-bottom: 10px;
     margin-right: 15px; 
@@ -478,11 +480,13 @@ div.stats h5 {
     margin-top: 30px;
     font-size: 18px;
     letter-spacing: 0.5px;
+    font-weight: 500;
+    font-color: #F0AD4E;
 }
 
 b {
     color: #2f2f2f;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 em {
@@ -498,7 +502,7 @@ section p strong {
 article section p {
     font-size: 18px;
     line-height: 1.6;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     color: dimgray;
     margin-bottom: 10px;
     margin-top: 30px;
@@ -517,8 +521,7 @@ section ul li {
     list-style-image: url(../Images/diamond.png);
     margin-left: 7em;
     margin-right: 7em;
-    font-family: Optima, Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: dimgray;
     margin-bottom: 20px;
@@ -602,12 +605,12 @@ figure.center-half {
 }
 
 figcaption {
-    font-family: Optima, Helvetica, Arial, sans-serif;
     color: darkgray;
     font-size: 13px;
     margin-top: 10px;
     line-height: 1.6;
     letter-spacing: 0.5px;
+    text-align: left;
 }
 
 section a img {
@@ -635,6 +638,7 @@ section a img:hover {
 }
 
 article#bio {
+    margin-top: 70px;
     margin-bottom: 130px;
 }
 
@@ -648,10 +652,10 @@ article#bio h1 {
 article#bio p {
     width: 55%;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 100;
     line-height: 1.5;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.4px;
     color: dimgray;
     display: block;
     margin-left: auto;
@@ -674,7 +678,8 @@ article#seeking p {
 }
 
 article#seeking p b {
-    color: #edc689;
+    color: #F0AD4E;
+    font-weight: 500;
 }
 
 
@@ -684,11 +689,22 @@ article#seeking p b {
 
 /* -------------------- WORK PAGE ---------------------- */
 
-header h1 {
-    margin-top: 17px;
-    margin-left: 10px;
-    font-size: 20px;
-    text-align: left;
+
+
+header#home h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 100;
+}
+
+header#home h2 {
+    font-size: 17px;
+    color: #F0AD4E;
+    margin-bottom: 75px;
+    text-align: center;
+    font-weight: 400;
 }
 
 section h1 {
@@ -699,8 +715,12 @@ section h1 {
     color: dimgray;
 }
 
+main#home {
+    width: 70%;
+}
+
 div.work {
-    width: 85%;
+/*    width: 85%;*/
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -722,17 +742,21 @@ div.work {
 
 .work figcaption {
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 100;
 }
 
 .work figcaption p em {
     font-size: 15px;
-    color: #edc689;
+    color: #F0AD4E;
+    font-weight: 300;
 }
 
 .work figcaption p {
     font-size: 12px;
     color: darkgray;
+    font-weight: 400;
 }
 
 .work figcaption a {
@@ -753,24 +777,49 @@ transition: opacity 0.5s ease-in-out;
 */
 
 
+
+/** GRAYSCALE TRANSITION **/
+
+/*
 .project a img {
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     filter: grayscale(0%);
     transition: all 0.4s ease-in-out;
-
 }
 
 .project a img:hover {
-     -webkit-filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
     -moz-filter: grayscale(70%);
     filter: grayscale(70%);
     transition: all 0.4s ease-in-out;
-    
-    
-    
-   
 }
+*/
+
+
+#cover {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cover img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#cover img.top:hover {
+  opacity:0;
+}
+
+
+
+
 
 
 
