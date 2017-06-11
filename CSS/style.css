@@ -442,7 +442,7 @@ article h4 {
     color: #3f3f3f;
     margin-top: 80px;
     margin-bottom: 60px;
-/*    margin-right: 15px;*/
+    /*    margin-right: 15px;*/
     margin-right: -100px;
     margin-left: -100px;
     text-align: left;
@@ -720,14 +720,15 @@ main#home {
 }
 
 div.work {
-/*    width: 85%;*/
+    /*    width: 85%;*/
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: -40px;
 }
 
 .project {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    position: relative;
 }
 
 .project:nth-child(2n+1), .project:nth-child(2n) {
@@ -738,10 +739,23 @@ div.work {
 
 .project img {
     width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
+.project img.top:hover {
+    opacity:0;
+}
+
+
 .work figcaption {
-    margin-top: 15px;
+    margin-top: 90%;
     font-size: 23px;
     text-align: center;
     font-weight: 100;
@@ -782,43 +796,19 @@ transition: opacity 0.5s ease-in-out;
 
 /*
 .project a img {
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    filter: grayscale(0%);
-    transition: all 0.4s ease-in-out;
+-webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+filter: grayscale(0%);
+transition: all 0.4s ease-in-out;
 }
 
 .project a img:hover {
-    -webkit-filter: grayscale(70%);
-    -moz-filter: grayscale(70%);
-    filter: grayscale(70%);
-    transition: all 0.4s ease-in-out;
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+filter: grayscale(70%);
+transition: all 0.4s ease-in-out;
 }
 */
-
-
-#cover {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
-}
-
-#cover img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
-}
-
-#cover img.top:hover {
-  opacity:0;
-}
-
-
-
 
 
 
