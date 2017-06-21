@@ -11,6 +11,11 @@ article a:hover {
     transition: 0.1s linear all;
 }
 
+#bio a {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
 .clear {
     clear: both;
 }
