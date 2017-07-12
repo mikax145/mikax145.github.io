@@ -522,8 +522,7 @@ section ul {
 }
 
 section ul li {
-    list-style-type: circle;
-    list-style-image: url(../Images/diamond.png);
+    list-style-type: disc;
     margin-left: 7em;
     margin-right: 7em;
     font-size: 18px;
